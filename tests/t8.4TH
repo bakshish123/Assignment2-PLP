@@ -1,0 +1,2 @@
+Result: 6 2 * STR CONCAT2 . CR
+Value= 100 STR CONCAT2 . CR

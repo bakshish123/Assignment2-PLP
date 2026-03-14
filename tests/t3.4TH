@@ -1,0 +1,3 @@
+5 DUP + . CR
+7 3 SWAP - . CR
+9 1 DROP . CR
