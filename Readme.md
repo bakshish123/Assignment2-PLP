@@ -106,16 +106,6 @@ and compares each program’s output with its corresponding `.out` file.
 
 ---
 
-## Run All Tests (Windows PowerShell)
-
-```
-powershell -ExecutionPolicy Bypass -File .\check-all.ps1
-```
-
-This PowerShell script runs all test programs and verifies that the output matches the expected results.
-
----
-
 # Run Unit Tests
 
 Unit tests verify individual modules using the **Hspec** testing framework.
@@ -165,9 +155,6 @@ InterpretSpec.hs
 
 check-all.sh
     Bash script for running all functional tests (macOS / Linux)
-
-check-all.ps1
-    PowerShell script for running all functional tests (Windows)
 
 FORTH.cabal
     Cabal build configuration file
